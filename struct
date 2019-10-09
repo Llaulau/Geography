@@ -1,6 +1,6 @@
 struct Position {
-    let latitude: Float
-    let longitude = Float
+    var latitude: Float
+    var longitude: Float
     
 }
 
