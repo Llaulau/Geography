@@ -1,0 +1,40 @@
+class Position {
+    var latitude: Float
+    var longitude: Float
+    
+    init (latitude: Float, longitude: Float) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
+    
+}
+
+var positionGeneve = Position(latitude: 46.2050241, longitude: 6.1089833)
+var positionLausanne = Position(latitude: 46.5284585, longitude: 6.5822836)
+var positionVevey = Position(latitude: 46.4495897, longitude: 6.8071206)
+var positionThonon  = Position(latitude: 46.3744931, longitude: 6.4424993)
+
+var positionFribourg = Position(latitude: 46.8031596, longitude: 7.1246597)
+var positionBerne = Position(latitude: 46.9545841, longitude: 7.2544439)
+var positionBienne = Position(latitude: 47.1496086, longitude: 7.1867237)
+var positionNeuchatel  = Position(latitude: 46.9946235, longitude: 6.8723787)
+var positionYverdon  = Position(latitude: 46.7752381, longitude: 6.6029498)
+
+var positionDepart = positionGeneve
+
+print (positionDepart.latitude)
+print (positionDepart.longitude)
+print (positionGeneve.latitude)
+print (positionGeneve.longitude)
+
+print ("=============")
+
+positionDepart.latitude = 46.2050241
+positionDepart.longitude = 6.1089833
+
+print (positionDepart.latitude)
+print (positionDepart.longitude)
+print (positionGeneve.latitude)
+print (positionGeneve.longitude)
+
+print ("=============")
