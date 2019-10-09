@@ -1,0 +1,31 @@
+struct Position {
+    let latitude: Float
+    let longitutde = Float
+    
+}
+
+let positionGeneve = Position(latitude: 46.2050241, longitude: 6.1089833)
+let positionLausanne = Position(latitude: 46.5284585, longitude: 6.5822836)
+let positionVevey = Position(latitude: 46.4495897, longitude: 6.8071206)
+let positionThonon  = Position(latitude: 46.3744931, longitude: 6.4424993)
+
+let positionFribourg = Position(latitude: 46.8031596, longitude: 7.1246597)
+let positionBerne = Position(latitude: 46.9545841, longitude: 7.2544439)
+let positionBienne = Position(latitude: 47.1496086, longitude: 7.1867237)
+let positionNeuchatel  = Position(latitude: 46.9946235, longitude: 6.8723787)
+let positionYverdon  = Position(latitude: 46.7752381, longitude: 6.6029498)
+
+var positionDepart = positionGeneve
+
+print (positionDepart)
+print (positiomGeneve)
+
+print ("=============")
+
+positionDepart.latitude = 46.2050241
+positionDepart.longitude = 6.1089833
+
+print (positionDepart)
+print (positionGeneve)
+
+print ("=============")
