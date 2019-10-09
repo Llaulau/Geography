@@ -1,6 +1,6 @@
 struct Position {
     let latitude: Float
-    let longitutde = Float
+    let longitude = Float
     
 }
 
@@ -18,7 +18,7 @@ let positionYverdon  = Position(latitude: 46.7752381, longitude: 6.6029498)
 var positionDepart = positionGeneve
 
 print (positionDepart)
-print (positiomGeneve)
+print (positionGeneve)
 
 print ("=============")
 
